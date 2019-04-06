@@ -9,7 +9,7 @@ If you need to write ES5, copy the example of src/sample.es5.style.js and add th
 
 You can use *npm run test* but it's best used with VS Code debugging.
 
-![VS Code Debug Preview]https://github.com/nwallace534/pure-jest-es6-runner/blob/master/img/vscodeDebugExample.png "VS Code Debug Preview")
+![VS Code Debug Preview](https://github.com/nwallace534/pure-jest-es6-runner/blob/master/img/vscodeDebugExample.png)
 
 Add a launch.json for great debugging:
 ```json
