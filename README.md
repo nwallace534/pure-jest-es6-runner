@@ -1,13 +1,11 @@
 # pure-jest-es6-runner
-Quickly write es6+ modules with airbnb linting and jest tests and no other frameworks.
+Project template to write es6+ modules with airbnb linting and jest testing on node with no other frameworks.
 
-*A simple react-style setup without react.*
+*A react-style setup without react.*
 
-Made for technical JS challenges where you need linting and a setup you're familiar with.
+If you need to write ES5, copy the example of src/sample.es5.style.js and add the file to the .eslintignore
 
-If you need to write ES5, copy the example of src/sample.es5.style.js and add the file to the .eslintignore (or eslint will flip out)
-
-You can use *npm run test* but it's best used with VS Code debugging.
+You can use *npm run test* but best used with VS Code debugging.
 
 ![VS Code Debug Preview](https://github.com/nwallace534/pure-jest-es6-runner/blob/master/img/vscodeDebugExample.png)
 
@@ -34,5 +32,4 @@ Add a launch.json for great debugging:
 ```
 
 Inclusion of babel was unavoidable as jest and node are not ready for import syntax.
-
 
